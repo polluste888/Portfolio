@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Võid siia alla lisada oma muud stiilid, kui soovid */
+body {
+  margin: 0;
+  background-color: #0a0a0a;
+}
