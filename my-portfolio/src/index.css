@@ -7,3 +7,11 @@ body {
   margin: 0;
   background-color: #0a0a0a;
 }
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  display: flex;
+  animation: marquee 30s linear infinite;
+}
